@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+body {
+    background-color: rgba(255, 182, 193, 0.474);
+}
+
+.container {
+    height: 500px;
+   
+}
+footer {
+    height: 210px;
+    background-color: rgba(240, 128, 128, 0.321);
+    padding-top: 20px;
+}
+footer > h1 {
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Ga Maamli", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Ga Maamli", serif;
+    color: wheat;
+   
+}
+h3 {
+    text-align: center;
+}
+.card {
+    border: 1px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card img {
+    height: 220px;
+}
+a {
+    text-decoration: none;
+}
