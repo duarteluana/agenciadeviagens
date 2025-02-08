@@ -30,6 +30,7 @@ h1 {
 h2 {
     font-family: "Ga Maamli", serif;
     color: wheat;
+    text-align: center;
    
 }
 h3 {
@@ -44,4 +45,45 @@ h3 {
 }
 a {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.838);
+}
+a:hover {
+    color: lightskyblue;
+}
+.encantado {
+    
+    font-size: 3em;
+    color: #401564; 
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    position: relative;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+ 
+  .encantado:hover {
+    color: #d23fa4; 
+    text-shadow: 0 0 8px #a92666, 0 0 20px #de07c5, 0 0 30px #FFD700, 0 0 40px #b45949; 
+    animation: brilho 1s infinite alternate;
+  }
+  
+  @keyframes brilho {
+    0% {
+      text-shadow: 0 0 8px #e846b4, 0 0 20px #bb3a9b, 0 0 30px #de70ca, 0 0 40px #ce14c5;
+    }
+    100% {
+      text-shadow: 0 0 12px #f0caba, 0 0 30px #f03c81, 0 0 50px #f148c1, 0 0 70px #e84a2e;
+    }
+  }
+
+  /* Ajustes para tablets */
+@media (max-width: 1199px) and (min-width: 768px) {
+
+   
+
+
+/* Ajustes para celulares */
+@media (max-width: 767px) {
+    
 }
